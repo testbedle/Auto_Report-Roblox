@@ -17,8 +17,8 @@ if not (getgenv()).autoreport then
 		Webhook = "",
 	
 		Words = {
-		Blacklisted = "https://raw.githubusercontent.com/testbedle/Auto_Report-Roblox/main/src/db/blacklisted.lua?token=GHSAT0AAAAAABVYLVEAQR5HZZHGM2OO54OWYVOZTNQ",
-		Whitelisted = "https://raw.githubusercontent.com/testbedle/Auto_Report-Roblox/main/src/db/whitelisted.lua?token=GHSAT0AAAAAABVYLVEBGJ3FHXREK2CD665CYVOZTSA"
+			Blacklisted = "https://raw.githubusercontent.com/testbedle/Auto_Report-Roblox/main/src/db/blacklisted.lua",
+			Whitelisted = "https://raw.githubusercontent.com/testbedle/Auto_Report-Roblox/main/src/db/whitelisted.lua",
 		}
 	};
 end;
@@ -142,7 +142,7 @@ end);
 
 (getgenv().autoreport).library:MakeNotification({
 	Name = "Loaded!",
-	Content = ":-- PRIVATE --: v1.0.1",
+	Content = ":-- PRIVATE --: v1.0.2",
 	Time = 8
 });
 
